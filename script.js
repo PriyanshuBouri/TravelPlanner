@@ -46,7 +46,31 @@ videoBtn.forEach(btn =>{
     });
 });
 
-
-
-
-
+// var swiper = new Swiper(".review-slider", {
+//     spaceBetween: 40,
+//     loop: true,
+//     autoplay:{
+//         deplay: 10000,
+//         disableOnInteraction: false,
+//     },
+//     slidesPerView:3,
+//     breakpoints:{
+//         640:{
+//             slidesPerView: 1,
+//         },
+//         768:{
+//             slidesPerView: 2,
+//         },
+//         1024:{
+//             slidesPerView: 3,
+//         }
+//     },
+//     pagination: {
+//       el: ".swiper-pagination",
+//       type: "progressbar",
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//   });
