@@ -74,3 +74,4 @@ videoBtn.forEach(btn =>{
 //       prevEl: ".swiper-button-prev",
 //     },
 //   });
+
