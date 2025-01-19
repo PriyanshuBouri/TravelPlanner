@@ -433,6 +433,7 @@ header .search-bar-container label:hover{
 
 .services .box-container .box:hover{
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    cursor: pointer;
 }
 
 .gallery .box-container{
@@ -601,7 +602,7 @@ header .search-bar-container label:hover{
     background: #333;
   }
   
-  /* Responsive Design */
+  /* Responsive Design 
   @media (max-width: 768px) {
     .swiper-slide {
       max-width: 80%;
@@ -641,8 +642,102 @@ header .search-bar-container label:hover{
     .stars i {
       font-size: 14px;
     }
+  }*/
+  
+
+  /*contact section*/
+
+  .contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; 
+  }
+
+  .contact .row .image{
+    flex:1 1 35rem ;
+  }
+
+  
+  .contact .row .image img{
+    width: 100%;
+    text-align: left;
+  }
+
+  .contact .row form{
+    flex: 1 1 50rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+  }
+
+  .contact .row form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .contact .row form .inputBox input, .contact .row form textarea{
+    width: 49%;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    background: #f5f5f5;
+    text-transform: none; 
   }
   
+  .contact .row form textarea{
+    height: 15rem;
+    resize: none;
+    width: 100%;
+  }
+
+
+  .footer{
+    background-color: #333;
+  }
+
+  .footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+    .footer .box-container .box{
+        flex: 1 1 25rem;
+        padding: 1rem 0;
+    }
+
+    .footer .box-container .box h3{
+        font-size: 2.5rem;
+        color: #fff;
+        padding: .7rem 0;
+    }
+
+    .footer .box-container .box p{
+        font-size: 1.5rem;
+        color: #eee;
+        padding: .7rem 0;
+    }
+
+    .footer .box-container .box a{
+        display: block;
+        font-size: 1.5rem;
+        padding: .7rem 0;
+        color: #eee;
+    }
+
+    .footer .box-container .box a:hover{
+        color: var(--orange);
+        text-decoration: underline;
+    }
+
+    .footer .credit{
+        text-align: center;
+        padding: 1rem 0;
+        color: #fff;
+        font-size: 1.5rem;
+    }
 
 
 
